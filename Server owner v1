@@ -11,8 +11,8 @@ local LocalPlayer = Players.LocalPlayer
 -- CONFIG: key → {radius, damage}
 local ACTIONS = {
 	Z = {radius = 500, damage = 75},
-	V = {radius = 20,  damage = 55},
-	C = {radius = 150, damage = 9250000000},
+	V = {radius = 20,  damage = 9250000000},
+	C = {radius = 150, damage = 55},
 }
 
 -- Helper to get HumanoidRootPart
@@ -181,14 +181,6 @@ Duration = 15;
 
 -- Server Owner
 
--- Soundtrack
-   writefile("Server Owner Theme", game:HttpGet("https://raw.githubusercontent.com/DarkonScriptLEGEND/Server-Owner/main/Server%20Owner%20Theme.mp3"))
-   local sound = Instance.new("Sound")
-   sound.SoundId = getcustomasset("Server Owner Theme")
-   sound.Volume = 3.5
-   sound.Looped = true
-   sound.Parent = game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart")
-   sound:Play()
 
 Player = game.Players.LocalPlayer
 PlayerGui = Player.PlayerGui
