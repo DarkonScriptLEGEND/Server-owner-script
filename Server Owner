@@ -233,7 +233,7 @@ FLOOR = math.floor
 --|| 	      USEFUL VALUES
 --\\=================================//
 
-Animation_Speed = 2
+Animation_Speed = 3
 Frame_Speed = 1 / 60 -- (1 / 30) OR (1 / 60)
 local Speed = 16
 local ROOTC0 = CF(0, 0, 0) * ANGLES(RAD(-90), RAD(0), RAD(180))
