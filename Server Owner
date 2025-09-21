@@ -1,3 +1,5 @@
+Reskinned Version Of Server Admin
+
 -- LocalScript: Client-side damage & deletion
 -- Place in StarterPlayerScripts
 
@@ -11,8 +13,8 @@ local LocalPlayer = Players.LocalPlayer
 -- CONFIG: key → {radius, damage}
 local ACTIONS = {
 	Z = {radius = 500, damage = 75},
-	V = {radius = 20,  damage = 55},
-	C = {radius = 150, damage = 9250000000},
+	V = {radius = 20,  damage = 925000000000000},
+	C = {radius = 150, damage = 55},
 }
 
 -- Helper to get HumanoidRootPart
